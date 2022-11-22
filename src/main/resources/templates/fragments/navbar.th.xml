@@ -1,0 +1,6 @@
+<thlogic>
+    <attr sel="#navbarId" th:fragment="navbarFragment"/>
+    <attr sel="#navbarBrandId" th:href="@{__${@siteMappings.HOME}__}"/>
+    <attr sel="#navbarMenuId" th:href="@{__${@siteMappings.HOME}__}"/> <!--placeholder until menu created-->
+    <attr sel="#navbarCreateAcctId" th:href="@{__${@siteMappings.LOGIN}__}"/>
+</thlogic>

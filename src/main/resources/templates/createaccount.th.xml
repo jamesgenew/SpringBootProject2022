@@ -1,0 +1,6 @@
+<thlogic>
+    <attr sel="#headId"
+          th:replace="~{fragments/head :: headFragment}"/>
+    <attr sel="#navbarId"
+          th:replace="~{fragments/navbar :: navbarFragment}"/>
+</thlogic>

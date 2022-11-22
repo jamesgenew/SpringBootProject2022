@@ -1,0 +1,43 @@
+
+body{
+    background-color: #cc99ff;
+}
+
+p{
+    /*color: orange; */
+}
+
+#navbarList{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-nav{
+    flex-direction: row;
+}
+
+.navLink{
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: black;
+}
+
+#pizzaImgId{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+#navImgId{
+    width: 10%;
+    height: auto;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+} */
+/*.navbar-brand{
+    /* display: flex;
+    align-items: center;
+} */

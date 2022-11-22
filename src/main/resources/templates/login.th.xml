@@ -1,0 +1,7 @@
+<thlogic>
+    <attr sel="#headId"
+          th:replace="~{fragments/head :: headFragment}"/>
+    <attr sel="#navbarId"
+          th:replace="~{fragments/navbar :: navbarFragment}"/>
+    <attr sel="#anchorCreateAcct" th:href="@{__${@siteMappings.CREATEACCOUNT}__}"/>
+</thlogic>

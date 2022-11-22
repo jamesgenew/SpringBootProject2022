@@ -1,0 +1,9 @@
+<thlogic>
+    <attr sel="#headId"
+          th:replace="~{fragments/head :: headFragment}"/>
+    <attr sel="#navbarId"
+          th:replace="~{fragments/navbar :: navbarFragment}"/>
+    <attr sel="#anchor1" th:href="@{__${@siteMappings.CREATEACCOUNT}__}"/>
+<!--<attr sel="#headLink" th:href="@{/css/mystyles.css}"/>-->
+<!--    <attr sel="#paragraphId" th:text='new text'/>-->
+</thlogic>
